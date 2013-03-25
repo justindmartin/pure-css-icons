@@ -1,0 +1,33 @@
+/* Guide/Navigation Icon
+=========================================================== */
+.guideIcon,
+.guideIcon::before,
+.guideIcon::after{
+    width:32px;
+    height:4px;
+    background-color:#eee;
+    content:'';
+    /* -webkit-transition:background-color 0.25s; */
+    /* -moz-transition:background-color 0.25s; */
+    /* -ms-transition:background-color 0.25s; */
+    /* -o-transition:background-color 0.25s; */
+    /* transition:background-color 0.25s; */
+}
+.guideIcon::before{
+    position:absolute;
+    margin-top:8px;
+}
+.guideIcon::after{
+    position:absolute;
+    margin-top:16px;
+}
+.guideIcon:hover,
+.guideIcon:hover::before,
+.guideIcon:hover::after{
+    background-color:#FFF;
+    -webkit-box-shadow:0 0 3px 1px rgba(0,0,0,0.25);
+    box-shadow:0 0 3px 1px rgba(0,0,0,0.25);
+    cursor:pointer;
+}
+/*
+=========================================================== */
