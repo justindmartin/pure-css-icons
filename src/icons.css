@@ -1,0 +1,249 @@
+/*!
+ * pure-css-icons
+ * http://github.com/justindmartin1/pure-css-icons
+ *
+ * Copyright 2013 Justin Martin
+ * Released under the MIT license
+ * http://github.com/justindmartin1/pure-css-icons/blob/master/LICENSE.md
+ */
+
+/* Bar Graph Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.bar-graph-icon,
+.bar-graph-icon::before,
+.bar-graph-icon::after{
+    width:7px;
+    height:30px;
+    background-color:#333;
+    content:'';
+}
+.bar-graph-icon::before{
+    position:absolute;
+    height:20px;
+    margin-top:10px;
+    margin-left:11px;
+}
+.bar-graph-icon::after{
+    position:absolute;
+    margin-left:22px;
+}
+.bar-graph-icon:hover,
+.bar-graph-icon:hover::before,
+.bar-graph-icon:hover::after{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+/* Guide/Navigation Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.guide-icon,
+.guide-icon::before,
+.guide-icon::after{
+    width:30px;
+    height:7px;
+    background-color:#333;
+    content:'';
+    /* -webkit-transition:background-color 0.25s; */
+    /* -moz-transition:background-color 0.25s; */
+    /* -ms-transition:background-color 0.25s; */
+    /* -o-transition:background-color 0.25s; */
+    /* transition:background-color 0.25s; */
+}
+.guide-icon::before{
+    position:absolute;
+    margin-top:11px;
+}
+.guide-icon::after{
+    position:absolute;
+    margin-top:22px;
+}
+.guide-icon:hover,
+.guide-icon:hover::before,
+.guide-icon:hover::after{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* New Document Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.new-document-icon{
+    width:22.5px;
+    height:30px;
+    background-color:#333;
+}
+.new-document-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Add Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.add-icon{
+    width:30px;
+    height:30px;
+    background-color:#333;
+    border-radius:16px;
+}
+.add-icon::before,
+.add-icon::after{
+    position:absolute;
+    background-color:#FFF;
+    content:'';
+}
+.add-icon::before{
+    width:15px;
+    height:2px;
+    margin-top:14px;
+    margin-left:8px;
+}
+.add-icon::after{
+    width:2px;
+    height:15px;
+    margin-top:8px;
+    margin-left:14px;
+}
+.add-icon:hover{
+    background-color:#4184c4;
+}
+.add-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Subtract Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.subtract-icon{
+    width:30px;
+    height:30px;
+    background-color:#333;
+    border-radius:16px;
+}
+.subtract-icon::before{
+    position:absolute;
+    width:15px;
+    height:2px;
+    margin-top:14px;
+    margin-left:8px;
+    background-color:#FFF;
+    content:'';
+}
+.subtract-icon:hover{
+    background-color:#4184c4;
+}
+.subtract-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Delete Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.delete-icon{
+    width:30px;
+    height:30px;
+    background-color:#333;
+    border-radius:16px;
+}
+.delete-icon::before,
+.delete-icon::after{
+    position:absolute;
+    background-color:#FFF;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content:'';
+}
+.delete-icon::before{
+    width:15px;
+    height:2px;
+    margin-top:14px;
+    margin-left:8px;
+}
+.delete-icon::after{
+    width:2px;
+    height:15px;
+    margin-top:8px;
+    margin-left:14px;
+}
+.delete-icon:hover{
+    background-color:#4184c4;
+}
+.delete-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Search Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.search-icon{
+    width:10px;
+    height:10px;
+    border:solid 5px #333;
+    border-radius:16px;
+}
+.search-icon::before{
+    position:absolute;
+    width:15px;
+    height:5px;
+    margin-top:14px;
+    margin-left:10px;
+    background-color:#333;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content:'';
+}
+.search-icon:hover,
+.search-icon:hover::before{
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+.search-icon:hover{
+    border-color:#4183c4;
+}
+.search-icon:hover::before{
+    background-color:#4183c4;
+}
+
+/* Home Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.home-icon{
+    width:8px;
+    height:9px;
+    margin-top:11px;
+    margin-left:3px;
+    border-top:solid 10px #333;
+    border-left:solid 8px #333;
+    border-right:solid 8px #333;
+}
+.home-icon::before{
+    position:absolute;
+    width:0;
+    height:0;
+    margin-top:-22px;
+    margin-left:-10px;
+    border-left:14px solid transparent;
+    border-right:14px solid transparent;
+    border-bottom:12px solid #333;
+    content:'';
+}
+.home-icon:hover{
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+.home-icon:hover{
+    border-color:#4183c4;
+}
+.home-icon:hover::before{
+    border-bottom-color:#4183c4;
+}
+/*
+------------------------------------------------------------------------------------------------------------------------------- */
