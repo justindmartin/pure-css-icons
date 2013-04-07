@@ -105,9 +105,6 @@
     margin-left:14px;
 }
 .add-icon:hover{
-    background-color:#4184c4;
-}
-.add-icon:hover{
     background-color:#4183c4;
     -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
     box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
@@ -129,9 +126,6 @@
     margin-left:8px;
     background-color:#FFF;
     content:'';
-}
-.subtract-icon:hover{
-    background-color:#4184c4;
 }
 .subtract-icon:hover{
     background-color:#4183c4;
@@ -171,9 +165,76 @@
     margin-left:14px;
 }
 .delete-icon:hover{
-    background-color:#4184c4;
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
-.delete-icon:hover{
+
+/* Add Alternate Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.add-alt-icon{
+    width:30px;
+    height:2px;
+    margin-top:15px;
+    margin-left:0;
+    background-color:#333;
+}
+.add-alt-icon::before{
+    position:absolute;
+    width:2px;
+    height:30px;
+    margin-top:-15px;
+    margin-left:15px;
+    background-color:#333;
+    content:'';
+}
+.add-alt-icon:hover,
+.add-alt-icon:hover::before{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Subtract Alternate Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.subtract-alt-icon{
+    width:30px;
+    height:2px;
+    margin-top:15px;
+    margin-left:0;
+    background-color:#333;
+}
+.subtract-alt-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Delete Alternate Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.delete-alt-icon{
+    width:30px;
+    height:2px;
+    margin-top:15px;
+    margin-left:0;
+    background-color:#333;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.delete-alt-icon::before{
+    position:absolute;
+    width:2px;
+    height:30px;
+    margin-top:-15px;
+    margin-left:15px;
+    background-color:#333;
+    content:'';
+}
+.delete-alt-icon:hover,
+.delete-alt-icon:hover::before{
     background-color:#4183c4;
     -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
     box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
