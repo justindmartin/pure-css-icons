@@ -441,5 +441,45 @@
     -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
     box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
+
+/* Line Graph Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.line-graph-icon{
+    width:6px;
+    height:13px;
+    margin-top:15px;
+    margin-left:3px;
+    border-left:solid 2px #333;
+    border-top:solid 2px #333;
+    -webkit-transform:rotate(43deg);
+}
+.line-graph-icon::before,
+.line-graph-icon::after{
+    position:absolute;
+    content:'';
+}
+.line-graph-icon::before{
+    width:2px;
+    height:13px;
+    margin-top:-15px;
+    margin-left:4px;
+    background-color:#333;
+}
+.line-graph-icon::after{
+    margin-top:-23px;
+    margin-left:0px;
+    border-right:solid transparent 5px;
+    border-bottom:solid 8px #333;
+    border-left:solid transparent 5px;
+}
+.line-graph-icon:hover{
+    border-color:#4183c4;
+}
+.line-graph-icon:hover::after{
+    border-bottom-color:#4183c4;
+}
+.line-graph-icon:hover::before{
+    background-color:#4183c4;
+}
 /*
 ------------------------------------------------------------------------------------------------------------------------------- */
