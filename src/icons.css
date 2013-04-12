@@ -9,31 +9,59 @@
 
 /* Bar Graph Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
-.bar-graph-icon,
-.bar-graph-icon::before,
-.bar-graph-icon::after{
+.vertical-bar-graph-icon,
+.vertical-bar-graph-icon::before,
+.vertical-bar-graph-icon::after{
     width:7px;
     height:30px;
     background-color:#333;
     content:'';
 }
-.bar-graph-icon::before{
+.vertical-bar-graph-icon::before{
     position:absolute;
     height:20px;
     margin-top:10px;
     margin-left:11px;
 }
-.bar-graph-icon::after{
+.vertical-bar-graph-icon::after{
     position:absolute;
     margin-left:22px;
 }
-.bar-graph-icon:hover,
-.bar-graph-icon:hover::before,
-.bar-graph-icon:hover::after{
+.vertical-bar-graph-icon:hover,
+.vertical-bar-graph-icon:hover::before,
+.vertical-bar-graph-icon:hover::after{
     background-color:#4183c4;
     -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
     box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
+
+/* Horizontal Bar Graph Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.horizontal-bar-graph-icon,
+.horizontal-bar-graph-icon::before,
+.horizontal-bar-graph-icon::after{
+    width:30px;
+    height:7px;
+    background-color:#333;
+    content:'';
+}
+.horizontal-bar-graph-icon::before{
+    position:absolute;
+    width:20px;
+    margin-top:11px;
+}
+.horizontal-bar-graph-icon::after{
+    position:absolute;
+    margin-top:22px;
+}
+.horizontal-bar-graph-icon:hover,
+.horizontal-bar-graph-icon:hover::before,
+.horizontal-bar-graph-icon:hover::after{
+    background-color:#4183c4;
+    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
 /* Guide/Navigation Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .guide-icon,
@@ -422,17 +450,17 @@
 ------------------------------------------------------------------------------------------------------------------------------- */
 .pause-alt-icon{
     margin-top:3px;
-    margin-left:10px;
+    margin-left:9px;
 }
 .pause-alt-icon,
 .pause-alt-icon::before{
-    width:3px;
+    width:4px;
     height:24px;
     background-color:#333;
 }
 .pause-alt-icon::before{
     position:absolute;
-    margin-left:7px;
+    margin-left:8px;
     content:'';
 }
 .pause-alt-icon:hover,
