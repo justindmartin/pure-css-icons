@@ -31,8 +31,6 @@
 .vertical-bar-graph-icon:hover::before,
 .vertical-bar-graph-icon:hover::after{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Horizontal Bar Graph Icon
@@ -58,8 +56,6 @@
 .horizontal-bar-graph-icon:hover::before,
 .horizontal-bar-graph-icon:hover::after{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Guide/Navigation Icon
@@ -89,8 +85,6 @@
 .guide-icon:hover::before,
 .guide-icon:hover::after{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* New Document Icon
@@ -103,8 +97,6 @@
 }
 .new-document-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Add Icon
@@ -135,8 +127,6 @@
 }
 .add-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Subtract Icon
@@ -158,8 +148,6 @@
 }
 .subtract-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Delete Icon
@@ -188,15 +176,13 @@
     height:2px;
 }
 .delete-icon::after{
-    margin-top:7px;
+    margin-top:7.5px;
     margin-left:14px;
     width:2px;
     height:15px;
 }
 .delete-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Add Alternate Icon
@@ -220,8 +206,6 @@
 .add-alt-icon:hover,
 .add-alt-icon:hover::before{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Subtract Alternate Icon
@@ -235,8 +219,6 @@
 }
 .subtract-alt-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Delete Alternate Icon
@@ -255,7 +237,7 @@
 }
 .delete-alt-icon::before{
     position:absolute;
-    margin-top:-12px;
+    margin-top:-12.5px;
     margin-left:12px;
     width:6px;
     height:30px;
@@ -265,8 +247,6 @@
 .delete-alt-icon:hover,
 .delete-alt-icon:hover::before{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Add Alternate 2 Icon
@@ -297,8 +277,6 @@
 }
 .add-alt2-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Subtract Alternate 2 Icon
@@ -320,8 +298,6 @@
 }
 .subtract-alt2-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Delete Icon
@@ -350,15 +326,13 @@
     height:2px;
 }
 .delete-alt2-icon::after{
-    margin-top:7px;
+    margin-top:7.5px;
     margin-left:14px;
     width:2px;
     height:15px;
 }
 .delete-alt2-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Search Icon
@@ -382,11 +356,6 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-.search-icon:hover,
-.search-icon:hover::before{
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 .search-icon:hover{
     border-color:#4183c4;
@@ -416,10 +385,6 @@
     border-bottom:12px solid #333;
     border-left:14px solid transparent;
     content:'';
-}
-.home-icon:hover{
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 .home-icon:hover{
     border-color:#4183c4;
@@ -452,8 +417,6 @@
 }
 .play-icon:hover::before{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Stop Icon
@@ -475,8 +438,6 @@
 }
 .stop-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Pause Icon
@@ -504,8 +465,66 @@
 }
 .pause-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Rewind Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.rewind-icon{
+    width:30px;
+    height:30px;
+    border-radius:16px;
+    background-color:#333;
+}
+.rewind-icon::before,
+.rewind-icon::after{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 6px transparent;
+    border-right:solid 9px #FFF;
+    border-bottom:solid 6px transparent;
+    content:'';
+}
+.rewind-icon::before{
+    margin-top:10px;
+    margin-left:5px;
+}
+.rewind-icon::after{
+    margin-top:10px;
+    margin-left:14px;
+}
+.rewind-icon:hover{
+    background-color:#4183c4;
+}
+
+/* Fast-Forward Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.fast-forward-icon{
+    width:30px;
+    height:30px;
+    border-radius:16px;
+    background-color:#333;
+}
+.fast-forward-icon::before,
+.fast-forward-icon::after{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 6px transparent;
+    border-bottom:solid 6px transparent;
+    border-left:solid 9px #FFF;
+    content:'';
+}
+.fast-forward-icon::before{
+    margin-top:10px;
+    margin-left:8px;
+}
+.fast-forward-icon::after{
+    margin-top:10px;
+    margin-left:17px;
+}
+.fast-forward-icon:hover{
+    background-color:#4183c4;
 }
 
 /* Play Alternate Icon
@@ -534,8 +553,6 @@
 }
 .stop-alt-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
 /* Pause Alternate Icon
@@ -558,11 +575,61 @@
 .pause-alt-icon:hover,
 .pause-alt-icon:hover::before{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
-/* Play Alternative 2 Icon
+/* Rewind Alternate Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.rewind-alt-icon{
+    width:30px;
+    height:30px;
+}
+.rewind-alt-icon::before,
+.rewind-alt-icon::after{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 10px transparent;
+    border-right:solid 15px #333;
+    border-bottom:solid 10px transparent;
+    content:'';
+}
+.rewind-alt-icon::before{
+    margin-top:5.5px;
+    margin-left:0px;
+}
+.rewind-alt-icon::after{
+    margin-top:5.5px;
+    margin-left:15px;
+}
+.rewind-alt-icon:hover::before,
+.rewind-alt-icon:hover::after{
+    border-right-color:#4183c4;
+}
+
+/* Fast-Forward Alternate Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.fast-forward-alt-icon,
+.fast-forward-alt-icon::before{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 10px transparent;
+    border-bottom:solid 10px transparent;
+    border-left:solid 15px #333;
+    content:'';
+}
+.fast-forward-alt-icon{
+    margin-top:5.5px;
+}
+.fast-forward-alt-icon::before{
+    margin-top:-10px;
+}
+.fast-forward-alt-icon:hover,
+.fast-forward-alt-icon:hover::before{
+    border-left-color:#4183c4;
+}
+
+/* Play alternate 2 Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .play-alt2-icon{
     margin-top:7px;
@@ -586,11 +653,9 @@
 }
 .play-alt2-icon:hover::before{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
-/* Stop Icon
+/* Stop Alternate 2 Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .stop-alt2-icon{
     width:30px;
@@ -609,11 +674,9 @@
 }
 .stop-alt2-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
 }
 
-/* Pause Icon
+/* Pause Alternate 2 Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .pause-alt2-icon{
     width:30px;
@@ -638,8 +701,66 @@
 }
 .pause-alt2-icon:hover{
     background-color:#4183c4;
-    -webkit-box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
-    box-shadow:0 0 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Rewind Alternate 2 Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.rewind-alt2-icon{
+    width:30px;
+    height:30px;
+    border-radius:2px;
+    background-color:#333;
+}
+.rewind-alt2-icon::before,
+.rewind-alt2-icon::after{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 6px transparent;
+    border-right:solid 9px #FFF;
+    border-bottom:solid 6px transparent;
+    content:'';
+}
+.rewind-alt2-icon::before{
+    margin-top:10px;
+    margin-left:5px;
+}
+.rewind-alt2-icon::after{
+    margin-top:10px;
+    margin-left:14px;
+}
+.rewind-alt2-icon:hover{
+    background-color:#4183c4;
+}
+
+/* Fast-Forward Alternate 2 Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.fast-forward-alt2-icon{
+    width:30px;
+    height:30px;
+    border-radius:2px;
+    background-color:#333;
+}
+.fast-forward-alt2-icon::before,
+.fast-forward-alt2-icon::after{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:solid 6px transparent;
+    border-bottom:solid 6px transparent;
+    border-left:solid 9px #FFF;
+    content:'';
+}
+.fast-forward-alt2-icon::before{
+    margin-top:10px;
+    margin-left:8px;
+}
+.fast-forward-alt2-icon::after{
+    margin-top:10px;
+    margin-left:17px;
+}
+.fast-forward-alt2-icon:hover{
+    background-color:#4183c4;
 }
 
 /* Line Graph Icon
@@ -652,6 +773,10 @@
     border-top:solid 2px #333;
     border-left:solid 2px #333;
     -webkit-transform:rotate(43deg);
+    -moz-transform:rotate(43deg);
+    -ms-transform:rotate(43deg);
+    -o-transform:rotate(43deg);
+    transform:rotate(43deg);
 }
 .line-graph-icon::before,
 .line-graph-icon::after{
@@ -755,6 +880,74 @@
 }
 .cup-icon:hover::after{
     background-color:#4183c4;
+}
+
+/* Heart Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.heart-icon{
+    margin-top:1px;
+    width:30px;
+    height:27px;
+}
+.heart-icon::before,
+.heart-icon::after{
+    position:absolute;
+    width:15px;
+    height:25px;
+    border-radius:50px 50px 0 0;
+    background-color:#333;
+    content:'';
+}
+.heart-icon::before{
+    margin-left:4px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+.heart-icon::after{
+    margin-left:11px;
+    background-color:#333;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.heart-icon:hover::before,
+.heart-icon:hover::after{
+    background-color:#4183c4;
+}
+
+/* Map Marker Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.map-marker-icon{
+    width:10px;
+    height:10px;
+    margin-top:1px;
+    margin-left:5px;
+    border:solid 5px #333;
+    border-radius:16px;
+}
+.map-marker-icon::before{
+    position:absolute;
+    width:0;
+    height:0;
+    border-left:solid 8px transparent;
+    border-right:solid 8px transparent;
+    border-top:solid 12px #333;
+    content:'';
+}
+.map-marker-icon::before{
+    margin-top:11px;
+    margin-left:-3px;
+}
+.map-marker-icon:hover{
+    border-color:#4183c4;
+}
+.map-marker-icon:hover::before{
+    border-top-color:#4183c4;
 }
 /*
 ------------------------------------------------------------------------------------------------------------------------------- */
