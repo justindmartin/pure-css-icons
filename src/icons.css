@@ -67,11 +67,6 @@
     height:7px;
     background-color:#333;
     content:'';
-    /* -webkit-transition:background-color 0.25s; */
-    /* -moz-transition:background-color 0.25s; */
-    /* -ms-transition:background-color 0.25s; */
-    /* -o-transition:background-color 0.25s; */
-    /* transition:background-color 0.25s; */
 }
 .guide-icon::before{
     position:absolute;
@@ -923,10 +918,10 @@
 /* Map Marker Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .map-marker-icon{
-    width:10px;
-    height:10px;
     margin-top:1px;
     margin-left:5px;
+    width:10px;
+    height:10px;
     border:solid 5px #333;
     border-radius:16px;
 }
@@ -934,9 +929,9 @@
     position:absolute;
     width:0;
     height:0;
-    border-left:solid 8px transparent;
-    border-right:solid 8px transparent;
     border-top:solid 12px #333;
+    border-right:solid 8px transparent;
+    border-left:solid 8px transparent;
     content:'';
 }
 .map-marker-icon::before{
@@ -949,5 +944,388 @@
 .map-marker-icon:hover::before{
     border-top-color:#4183c4;
 }
+
+/* Wi-Fi Signal Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.wifi-signal-icon{
+    overflow:hidden;
+    margin-top:5px;
+    margin-left:1px;
+    width:28px;
+    height:20px;
+}
+.wifi-signal-icon::before{
+    display:block;
+    width:0;
+    height:20px;
+    -webkit-box-shadow:2px 17px 0 2px #333,
+    8px 13px 0 2px #333,
+    14px 9px 0 2px #333,
+    20px 5px 0 2px #333,
+    26px 1px 0 2px #333;
+    box-shadow:2px 17px 0 2px #333,
+    8px 13px 0 2px #333,
+    14px 9px 0 2px #333,
+    20px 5px 0 2px #333,
+    26px 1px 0 2px #333;
+    content:'';
+}
+.wifi-signal-icon:hover::before{
+    -webkit-box-shadow:2px 17px 0 2px #4183c4,
+    8px 13px 0 2px #4183c4,
+    14px 9px 0 2px #4183c4,
+    20px 5px 0 2px #4183c4,
+    26px 1px 0 2px #4183c4;
+    box-shadow:2px 17px 0 2px #4183c4,
+    8px 13px 0 2px #4183c4,
+    14px 9px 0 2px #4183c4,
+    20px 5px 0 2px #4183c4,
+    26px 1px 0 2px #4183c4;
+}
+
+/* Zoom-In Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.zoom-in-icon{
+    margin-top:2px;
+    margin-left:2px;
+    width:12px;
+    height:12px;
+    border:solid 3px #333;
+    border-radius:16px;
+}
+.zoom-in-icon::before,
+.zoom-in-icon::after{
+    position:absolute;
+    background-color:#333;
+    content:'';
+}
+.zoom-in-icon::before{
+    margin-top:16px;
+    margin-left:10px;
+    width:14px;
+    height:3px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.zoom-in-icon::after{
+    margin-top:5px;
+    margin-left:5px;
+    width:2px;
+    height:2px;
+    -webkit-box-shadow:0 3px 0 0 #333,
+    0 2px 0 0 #333,
+    0 -3px 0 0 #333,
+    0 -2px 0 0 #333,
+    3px 0 0 0 #333,
+    2px 0 0 0 #333,
+    -3px 0 0 0 #333,
+    -2px 0 0 0 #333;
+    box-shadow:0 3px 0 0 #333,
+    0 2px 0 0 #333,
+    0 -3px 0 0 #333,
+    0 -2px 0 0 #333,
+    3px 0 0 0 #333,
+    2px 0 0 0 #333,
+    -3px 0 0 0 #333,
+    -2px 0 0 0 #333;
+}
+.zoom-in-icon:hover{
+    border-color:#4183c4;
+}
+.zoom-in-icon:hover::before,
+.zoom-in-icon:hover::after{
+    background-color:#4183c4;
+}
+.zoom-in-icon:hover::after{
+     -webkit-box-shadow:0 3px 0 0 #4183c4,
+    0 2px 0 0 #4183c4,
+    0 -3px 0 0 #4183c4,
+    0 -2px 0 0 #4183c4,
+    3px 0 0 0 #4183c4,
+    2px 0 0 0 #4183c4,
+    -3px 0 0 0 #4183c4,
+    -2px 0 0 0 #4183c4;
+    box-shadow:0 3px 0 0 #4183c4,
+    0 2px 0 0 #4183c4,
+    0 -3px 0 0 #4183c4,
+    0 -2px 0 0 #4183c4,
+    3px 0 0 0 #4183c4,
+    2px 0 0 0 #4183c4,
+    -3px 0 0 0 #4183c4,
+    -2px 0 0 0 #4183c4;
+}
+
+/* Zoom-Out Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.zoom-out-icon{
+    margin-top:2px;
+    margin-left:2px;
+    width:12px;
+    height:12px;
+    border:solid 3px #333;
+    border-radius:16px;
+}
+.zoom-out-icon::before,
+.zoom-out-icon::after{
+    position:absolute;
+    background-color:#333;
+    content:'';
+}
+.zoom-out-icon::before{
+    margin-top:16px;
+    margin-left:10px;
+    width:14px;
+    height:3px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.zoom-out-icon::after{
+    margin-top:4px;
+    margin-left:2px;
+    width:8px;
+    height:3px;
+}
+.zoom-out-icon:hover{
+    border-color:#4183c4;
+}
+.zoom-out-icon:hover::before,
+.zoom-out-icon:hover::after{
+    background-color:#4183c4;
+}
+
+/* Cut Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.cut-icon{
+    margin-top:3px;
+    margin-left:3px;
+}
+.cut-icon,
+.cut-icon::before{
+    width:4px;
+    height:4px;
+    border:solid 2px #333;
+    border-radius:16px;
+}
+.cut-icon::before,
+.cut-icon::after{
+    position:absolute;
+    content:'';
+}
+.cut-icon::before{
+    margin-top:-2px;
+    margin-left:14px;
+}
+.cut-icon::after{
+    margin-top:12px;
+    margin-left:9px;
+    width:2px;
+    height:2px;
+    background-color:#333;
+    -webkit-box-shadow:0 -10px 0 0 #333,
+    0 -9px 0 0 #333,
+    0 -8px 0 0 #333,
+    0 -7px 0 0 #333,
+    0 -6px 0 0 #333,
+    0 -5px 0 0 #333,
+    0 -4px 0 0 #333,
+    0 -3px 0 0 #333,
+    0 -2px 0 0 #333,
+    0 -1px 0 0 #333,
+    0 1px 0 0 #333,
+    0 2px 0 0 #333,
+    0 3px 0 0 #333,
+    0 4px 0 0 #333,
+    0 5px 0 0 #333,
+    0 6px 0 0 #333,
+    0 7px 0 0 #333,
+    0 8px 0 0 #333,
+    -10px 0 0 0 #333,
+    -9px 0 0 0 #333,
+    -8px 0 0 0 #333,
+    -7px 0 0 0 #333,
+    -6px 0 0 0 #333,
+    -5px 0 0 0 #333,
+    -4px 0 0 0 #333,
+    -3px 0 0 0 #333,
+    -2px 0 0 0 #333,
+    -1px 0 0 0 #333,
+    1px 0 0 0 #333,
+    2px 0 0 0 #333,
+    3px 0 0 0 #333,
+    4px 0 0 0 #333,
+    5px 0 0 0 #333,
+    6px 0 0 0 #333,
+    7px 0 0 0 #333,
+    8px 0 0 0 #333;
+    box-shadow:0 -10px 0 0 #333,
+    0 -9px 0 0 #333,
+    0 -8px 0 0 #333,
+    0 -7px 0 0 #333,
+    0 -6px 0 0 #333,
+    0 -5px 0 0 #333,
+    0 -4px 0 0 #333,
+    0 -3px 0 0 #333,
+    0 -2px 0 0 #333,
+    0 -1px 0 0 #333,
+    0 1px 0 0 #333,
+    0 2px 0 0 #333,
+    0 3px 0 0 #333,
+    0 4px 0 0 #333,
+    0 5px 0 0 #333,
+    0 6px 0 0 #333,
+    0 7px 0 0 #333,
+    0 8px 0 0 #333,
+    -10px 0 0 0 #333,
+    -9px 0 0 0 #333,
+    -8px 0 0 0 #333,
+    -7px 0 0 0 #333,
+    -6px 0 0 0 #333,
+    -5px 0 0 0 #333,
+    -4px 0 0 0 #333,
+    -3px 0 0 0 #333,
+    -2px 0 0 0 #333,
+    -1px 0 0 0 #333,
+    1px 0 0 0 #333,
+    2px 0 0 0 #333,
+    3px 0 0 0 #333,
+    4px 0 0 0 #333,
+    5px 0 0 0 #333,
+    6px 0 0 0 #333,
+    7px 0 0 0 #333,
+    8px 0 0 0 #333;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.cut-icon:hover,
+.cut-icon:hover::before{
+    border-color:#4183c4;
+}
+.cut-icon:hover::after{
+    -webkit-box-shadow:0 -10px 0 0 #4183c4,
+    0 -9px 0 0 #4183c4,
+    0 -8px 0 0 #4183c4,
+    0 -7px 0 0 #4183c4,
+    0 -6px 0 0 #4183c4,
+    0 -5px 0 0 #4183c4,
+    0 -4px 0 0 #4183c4,
+    0 -3px 0 0 #4183c4,
+    0 -2px 0 0 #4183c4,
+    0 -1px 0 0 #4183c4,
+    0 1px 0 0 #4183c4,
+    0 2px 0 0 #4183c4,
+    0 3px 0 0 #4183c4,
+    0 4px 0 0 #4183c4,
+    0 5px 0 0 #4183c4,
+    0 6px 0 0 #4183c4,
+    0 7px 0 0 #4183c4,
+    0 8px 0 0 #4183c4,
+    -10px 0 0 0 #4183c4,
+    -9px 0 0 0 #4183c4,
+    -8px 0 0 0 #4183c4,
+    -7px 0 0 0 #4183c4,
+    -6px 0 0 0 #4183c4,
+    -5px 0 0 0 #4183c4,
+    -4px 0 0 0 #4183c4,
+    -3px 0 0 0 #4183c4,
+    -2px 0 0 0 #4183c4,
+    -1px 0 0 0 #4183c4,
+    1px 0 0 0 #4183c4,
+    2px 0 0 0 #4183c4,
+    3px 0 0 0 #4183c4,
+    4px 0 0 0 #4183c4,
+    5px 0 0 0 #4183c4,
+    6px 0 0 0 #4183c4,
+    7px 0 0 0 #4183c4,
+    8px 0 0 0 #4183c4;
+    box-shadow:0 -10px 0 0 #4183c4,
+    0 -9px 0 0 #4183c4,
+    0 -8px 0 0 #4183c4,
+    0 -7px 0 0 #4183c4,
+    0 -6px 0 0 #4183c4,
+    0 -5px 0 0 #4183c4,
+    0 -4px 0 0 #4183c4,
+    0 -3px 0 0 #4183c4,
+    0 -2px 0 0 #4183c4,
+    0 -1px 0 0 #4183c4,
+    0 1px 0 0 #4183c4,
+    0 2px 0 0 #4183c4,
+    0 3px 0 0 #4183c4,
+    0 4px 0 0 #4183c4,
+    0 5px 0 0 #4183c4,
+    0 6px 0 0 #4183c4,
+    0 7px 0 0 #4183c4,
+    0 8px 0 0 #4183c4,
+    -10px 0 0 0 #4183c4,
+    -9px 0 0 0 #4183c4,
+    -8px 0 0 0 #4183c4,
+    -7px 0 0 0 #4183c4,
+    -6px 0 0 0 #4183c4,
+    -5px 0 0 0 #4183c4,
+    -4px 0 0 0 #4183c4,
+    -3px 0 0 0 #4183c4,
+    -2px 0 0 0 #4183c4,
+    -1px 0 0 0 #4183c4,
+    1px 0 0 0 #4183c4,
+    2px 0 0 0 #4183c4,
+    3px 0 0 0 #4183c4,
+    4px 0 0 0 #4183c4,
+    5px 0 0 0 #4183c4,
+    6px 0 0 0 #4183c4,
+    7px 0 0 0 #4183c4,
+    8px 0 0 0 #4183c4;
+}
+
+/* Video Camera Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.video-camera-icon{
+    margin-top:3px;
+    margin-left:4px;
+    width:8px;
+    height:8px;
+    border-radius:16px;
+    background-color:#333;
+    -webkit-box-shadow:12px 0 0 0 #333;
+    box-shadow:12px 0 0 0 #333;
+}
+.video-camera-icon::before,
+.video-camera-icon::after{
+    position:absolute;
+    content:'';
+}
+.video-camera-icon::before{
+    margin-top:8px;
+    width:20px;
+    height:14px;
+    border-radius:2px;
+    background-color:#333;
+}
+.video-camera-icon::after{
+    margin-top:9px;
+    margin-left:19px;
+    border-top:solid 6px transparent;
+    border-right:solid 6px #333;
+    border-bottom:solid 6px transparent;
+}
+.video-camera-icon:hover{
+    background-color:#4183c4;
+    -webkit-box-shadow:12px 0 0 0 #4183c4;
+    box-shadow:12px 0 0 0 #4183c4;
+}
+.video-camera-icon:hover::before{
+    background-color:#4183c4;
+}
+.video-camera-icon:hover::after{
+    border-right-color:#4183c4;
+}
+
 /*
 ------------------------------------------------------------------------------------------------------------------------------- */
