@@ -1332,10 +1332,10 @@
 .poke-ball-icon{
     width:28px;
     height:14px;
-    background-color:#333;
     border:solid 1px #333;
-    -webkit-border-top-left-radius:16px;
-    -webkit-border-top-right-radius:16px;
+    border-top-left-radius:16px;
+    border-top-right-radius:16px;
+    background-color:#333;
 }
 .poke-ball-icon::before,
 .poke-ball-icon::after{
@@ -1343,32 +1343,107 @@
     content:'';
 }
 .poke-ball-icon::before{
-    width:28px;
-    height:14px;
     margin-top:14px;
     margin-left:-1px;
+    width:28px;
+    height:14px;
     border:solid 1px #333;
-    -webkit-border-bottom-left-radius:16px;
-    -webkit-border-bottom-right-radius:16px;
+    border-bottom-right-radius:16px;
+    border-bottom-left-radius:16px;
 }
 .poke-ball-icon::after{
-    width:7px;
-    height:7px;
     margin-top:10px;
     margin-left:10px;
+    width:7px;
+    height:7px;
     border:solid 1px #FFF;
     border-bottom-color:#333;
     border-radius:16px;
 }
 .poke-ball-icon:hover{
-    background-color:#4183c4;
     border-color:#4183c4;
+    background-color:#4183c4;
 }
 .poke-ball-icon:hover::before{
     border-color:#4183c4;
 }
 .poke-ball-icon:hover::after{
     border-bottom-color:#4183c4;
+}
+
+/* Contrast Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.contrast-icon,
+.contrast-icon::before{
+    width:13px;
+    height:26px;
+    border:solid 2px #333;
+}
+.contrast-icon{
+    border-right-width:0;
+    border-radius:16px 0 0 16px;
+    background-color:#333;
+}
+.contrast-icon::before{
+    position:absolute;
+    margin-top:-2px;
+    margin-left:13px;
+    border-left-width:0;
+    border-radius:0 16px 16px 0;
+    content:'';
+}
+.contrast-icon:hover{
+    border-color:#4183c4;
+    background-color:#4183c4;
+}
+.contrast-icon:hover::before{
+    border-color:#4183c4;
+}
+
+/* Light Bulb Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.light-bulb-icon{
+    width:13px;
+    height:26px;
+    border:solid 2px #333;
+}
+.light-bulb-icon::before{
+    position:absolute;
+    background-color:#333;
+    content:'';
+}
+.contrast-icon:hover{
+    border-color:#4183c4;
+    background-color:#4183c4;
+}
+.contrast-icon:hover::before{
+    border-color:#4183c4;
+}
+
+/* Power Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.power-icon{
+    width:26px;
+    height:26px;
+    border:solid 3px #333;
+    border-radius:16px;
+}
+.power-icon::before{
+    position:absolute;
+    margin-top:-5px;
+    margin-left:9px;
+    width:3px;
+    height:14px;
+    border-right:solid 3px #FFF;
+    border-left:solid 3px #FFF;
+    background-color:#333;
+    content:'';
+}
+.power-icon:hover{
+    border-color:#4183c4;
+}
+.power-icon:hover::before{
+    background-color:#4183c4;
 }
 
 /*
