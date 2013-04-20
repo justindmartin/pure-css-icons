@@ -1400,26 +1400,6 @@
     border-color:#4183c4;
 }
 
-/* Light Bulb Icon
-------------------------------------------------------------------------------------------------------------------------------- */
-.light-bulb-icon{
-    width:13px;
-    height:26px;
-    border:solid 2px #333;
-}
-.light-bulb-icon::before{
-    position:absolute;
-    background-color:#333;
-    content:'';
-}
-.contrast-icon:hover{
-    border-color:#4183c4;
-    background-color:#4183c4;
-}
-.contrast-icon:hover::before{
-    border-color:#4183c4;
-}
-
 /* Power Icon
 ------------------------------------------------------------------------------------------------------------------------------- */
 .power-icon{
