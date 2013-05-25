@@ -1502,5 +1502,47 @@
     background-color:#4183c4;
 }
 
+/* Warning Icon
+------------------------------------------------------------------------------------------------------------------------------- */
+.warning-icon{
+    width:0;
+    height:0;
+    margin-top:5px;
+    margin-left:3px;
+    border-left:solid 12px transparent;
+    border-right:solid 12px transparent;
+    border-bottom:solid 21px #FFF;
+}
+.warning-icon::before{
+    z-index:-3;
+    display:block;
+    position:absolute;
+    width:0;
+    height:0;
+    margin-top:-3px;
+    margin-left:-15px;
+    border-left:solid 15px transparent;
+    border-right:solid 15px transparent;
+    border-bottom:solid 26px #333;
+    content:"";
+}
+.warning-icon::after{
+    display:block;
+    z-index:2;
+    position:absolute;
+    margin-top:3px;
+    margin-left:-3px;
+    font-size:18px;
+    color:#333;
+    content:"!";
+}
+.warning-icon:hover::before{
+    border-bottom-color:#4183c4;
+}
+.warning-icon:hover::after{
+    color:#4183c4;
+}
+
+
 /*
 ------------------------------------------------------------------------------------------------------------------------------- */
